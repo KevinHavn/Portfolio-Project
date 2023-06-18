@@ -29,12 +29,17 @@ li {
   margin-left: 25rem;
   gap: 1rem;
 }
-.container {
+.card {
   background: whitesmoke;
   text-align: center;
   padding: 0.25rem;
   border-radius: 8px;
   border: solid black 1.5px;
+  box-shadow: 0 0 10px 0;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 3px 20px 0;
 }
 .about {
   grid-column: 1/3;
